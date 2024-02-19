@@ -116,10 +116,19 @@ void clsRestaurante::cargarDatos(){
     p4->setPrecio(25);
     p4->setStock(76);
 
+    clsPlato *p5 = new clsPlato();
+    p4->setNombre("Cuy con Papas");
+    p4->setDescripcion("El mejor cuy con papas de toda tu corta vida");
+    p4->setCategoria("Segundo");
+    p4->setCodigo("pl0020");
+    p4->setPrecio(40);
+    p4->setStock(13);
+
     this->getLP()->insertar(p1);
     this->getLP()->insertar(p2);
     this->getLP()->insertar(p3);
     this->getLP()->insertar(p4);
+    this->getLP()->insertar(p5);
 }
 
 
