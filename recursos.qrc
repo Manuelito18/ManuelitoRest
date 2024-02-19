@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>recur/imagenes/281776-200.png</file>
+        <file>recur/imagenes/857681.png</file>
+        <file>recur/imagenes/check.gif</file>
+        <file>recur/imagenes/e2804c2baf18dd18a1cba7fc286bcb3a.jpg</file>
+        <file>recur/imagenes/Escudo_nacional_del_Perú.png</file>
+        <file>recur/imagenes/fondo.gif</file>
+        <file>recur/imagenes/fondo_wasa.png</file>
+        <file>recur/imagenes/FondoLogin.jpg</file>
+        <file>recur/imagenes/fondores.jpg</file>
+        <file>recur/imagenes/login.jpg</file>
+        <file>recur/imagenes/login.png</file>
+        <file>recur/imagenes/loginRest.png</file>
+        <file>recur/imagenes/logotipo.png</file>
+        <file>recur/imagenes/Pastilla-MTPE@3x.png</file>
+        <file>recur/imagenes/usuario.png</file>
+        <file>recur/imagenes/usuario_Se_va.gif</file>
+        <file>recur/imagenes/fondoVenta.jpg</file>
+        <file>recur/imagenes/fondoGris.jpg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>805</width>
+    <height>551</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="styleSheet">
+    <string notr="true">#centralWidget{
+
+	background-position:center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover; 
+	background-image: url(:/recur/imagenes/fondores.jpg);
+}</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>20</y>
+      <width>691</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Manila Kiss - Personal Use</family>
+      <pointsize>48</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label{
+	text-aling:center;
+	
+	color: rgb(255, 0, 4);
+	padding:20;
+	background-color: rgba(132, 132, 132,30%);
+	border-radius: 20%;
+}</string>
+    </property>
+    <property name="text">
+     <string>REST MI MANUELITO</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>805</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuTrabajadores">
+    <property name="title">
+     <string>Trabajadores</string>
+    </property>
+    <addaction name="actionRegistrar_Trabajadores"/>
+    <addaction name="actionLista_de_Trabajadores"/>
+   </widget>
+   <widget class="QMenu" name="menuClientes">
+    <property name="title">
+     <string>Clientes</string>
+    </property>
+    <addaction name="actionRegistrar_Cliente"/>
+    <addaction name="actionListar_Clientes"/>
+   </widget>
+   <widget class="QMenu" name="menuCarta">
+    <property name="title">
+     <string>Carta</string>
+    </property>
+    <addaction name="actionAgregar_Plato"/>
+    <addaction name="actionListar_Platos"/>
+   </widget>
+   <widget class="QMenu" name="menuVentas">
+    <property name="title">
+     <string>Ventas</string>
+    </property>
+    <addaction name="actionNueva_Venta"/>
+    <addaction name="actionListar_Ventas"/>
+   </widget>
+   <addaction name="menuTrabajadores"/>
+   <addaction name="menuClientes"/>
+   <addaction name="menuCarta"/>
+   <addaction name="menuVentas"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="actionRegistrar_Trabajadores">
+   <property name="text">
+    <string>Registrar Trabajadores</string>
+   </property>
+  </action>
+  <action name="actionLista_de_Trabajadores">
+   <property name="text">
+    <string>Lista de Trabajadores</string>
+   </property>
+  </action>
+  <action name="actionRegistrar_Cliente">
+   <property name="text">
+    <string>Registrar Cliente</string>
+   </property>
+  </action>
+  <action name="actionListar_Clientes">
+   <property name="text">
+    <string>Listar Clientes</string>
+   </property>
+  </action>
+  <action name="actionAgregar_Plato">
+   <property name="text">
+    <string>Agregar Plato</string>
+   </property>
+  </action>
+  <action name="actionListar_Platos">
+   <property name="text">
+    <string>Listar Platos</string>
+   </property>
+  </action>
+  <action name="actionListar_Ventas">
+   <property name="text">
+    <string>Listar Ventas</string>
+   </property>
+  </action>
+  <action name="actionNueva_Venta">
+   <property name="text">
+    <string>Nueva Venta</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
